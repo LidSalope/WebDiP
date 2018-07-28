@@ -1,0 +1,147 @@
+
+    /*......index.php.........*/
+    .zaglavlje{
+        display: block;
+    }
+    #broj{
+        display: none;
+    }
+    #prijava_datum {
+        display:none;
+    }
+
+    #o_autoru{
+        display: none;
+    }
+    nav ul li a{
+        font-size: 14px;
+    }
+    .oglasi{
+        display: none;
+    }
+    /*........prijavaRegistracija.php.......*/
+    .datum{
+        display: none;
+    }
+    .forma{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .pir{
+        float: left;
+    }
+    .pir a{
+        text-align: justify;
+        font-size: 14px;
+        padding: 10px 50px;
+    }
+    .naslov{
+        font-size: 24px;
+    }
+    label{
+        font-size: 18px;
+    }
+    input{
+        width: 95%;
+        font-size: 15px;
+    }
+    /*..........nesrece.php..................*/
+    #nesrece thead{
+        width: 100%;
+        font-size: 10px;
+        
+    }
+    #nesrece tbody{
+        width: 100% !important;
+        padding:0;
+        font-size: 10px;
+    }
+    #nesrece_info{
+        font-size: 9px;
+    }
+    #nesrece_paginate{
+        font-size: 9px;
+        width: 100%;
+    }
+    #link_prijava_nesrece a{
+        padding: 5px;
+        margin: 0;
+    }
+    
+    #nesrece_desno{
+        width:100%;
+    }
+    #nesrece_moderator{
+        display: inline-block;
+    }
+    #nesrece_moderator a{
+        padding:5px;
+    }
+    /*.........prijava_nesrece.php.............*/
+    #prijava_nesrece{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    /*........nesrece_moderator.php............*/
+    
+    /*........ustanove.php..............*/
+    #ustanove thead{
+        width: 100%;
+        font-size: 10px;
+        
+    }
+    #ustanove tbody{
+        width: 100% !important;
+        padding:0;
+        font-size: 10px;
+    }
+    #ustanove_info{
+        font-size: 9px;
+    }
+    #ustanove_paginate{
+        font-size: 9px;
+        width: 100%;
+    }
+    #lista_ustanova_2{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #lista_ustanova_2 table{
+        font-size: 16px;
+    }
+    /*.........uzbune.php..............*/
+    #uzbune thead{
+        width: 100%;
+        font-size: 10px;
+        
+    }
+    #uzbune tbody{
+        width: 100% !important;
+        padding:0;
+        font-size: 10px;
+    }
+    #uzbune_info{
+        font-size: 9px;
+    }
+    #uzbune_paginate{
+        font-size: 9px;
+        width: 100%;
+    }
+    #mod_kreiraj_uzbunu{
+        display:block;
+    }
+    /*...............oglasi.php.............................*/
+    .vrste_oglasa{
+        width:100%;
+    }
+    .zzk_oglas{
+        width:100%;
+    }
+    #lista_zzo{
+        display:block;
+    }
+    /*........lista_zzo.php................................*/
+    #lista_zzo .aktivna_stranica{
+        display:block;
+    }
+    

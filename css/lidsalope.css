@@ -1,0 +1,422 @@
+/*.....Zaglavlje.....*/
+.zaglavlje{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    background-color: #760006;
+    color: white;
+}
+#broj{
+    text-align: center;
+}
+#glnaslov{
+    text-align: center;
+}
+#prijava_datum{
+    text-align: center;
+    display: block;
+    margin: 15px;
+}
+#prijava_datum a{
+    text-decoration: none;
+    color: white;
+    padding: 15px 15px;
+}
+#prijava_datum a:hover{
+    background-color: #9D1017;
+}
+#dokumentacija{
+    text-decoration: none;
+    color: white;
+    padding: 15px 15px;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 10px;
+    color: black;
+}
+
+nav ul li a:hover{
+    background-color: #2E8881;
+    color: white;
+}
+
+nav ul li a:visited{
+    background-color: #377965;
+}
+.aktivna_stranica{
+    background-color: #377965;
+    color: white;
+}
+/*.............PrijavaRegistracija..............*/
+.naslov{
+    color:white;
+}
+.form1{
+    max-width: 600px; 
+}
+#form2{
+    max-width: 600px;
+}
+label {
+    left:15px;
+    pointer-events: none;
+    font-size:22px;
+    color: pink;
+}
+
+input{
+    font-size:22px;
+    display:block;
+    width:100%;
+    padding:5px 10px;
+    background:none;
+    background-image:none;
+    border:1px solid white;
+    color: white;
+    border-radius:0;
+}
+
+::placeholder{
+    color: red;
+}
+
+.pir{
+    display: inline-block;
+    margin-bottom: 10px;
+    padding-left: 7%;
+    padding-bottom: 10px;
+
+
+}
+
+.pir a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 70px;
+    text-align: center;
+    background-color: #9D1017;
+
+}
+
+.pir a:hover{
+    background-color: red;
+    color: white;
+}
+
+.forma{
+    margin-left: 25%;
+    margin-top: 15px;
+    margin-right: 25%;
+    background-color: #760006;
+    padding: 15px;
+}
+
+.status-true{
+    background-color: green;
+}
+.status-false{
+    background-color: red;
+}
+#greska{
+    color: white;
+}
+#greske{
+    color: white;
+}
+/*.................Početna stranica........................*/
+#o_autoru{
+    margin: 15px;
+}
+.pocetna{
+    width: 100%;
+    margin: 10px;
+    display: inline-block;
+    background-color: blue;
+}
+
+.oglasi{
+    width: 25%;
+    float: left;
+}
+.oglasi div{
+    border: solid #760006;
+    width: 330px;
+    height: 300px;
+}
+
+.gl_sadrzaj{
+    width: 50%;
+    float: left;
+    padding: 10px;
+}   
+#pocetna_str{
+    width: 48%;
+}
+#o_meni{
+	display: inline-block;
+	float:left;
+}
+
+#pocetna_slika{
+	display: inline-block;
+	float: left;
+	text-align: center;
+}
+
+.mojaslika{
+	height: 200px;
+	margin-top: 40px;
+	transform: rotate(-90deg);
+}
+
+/*.........................ustanove.php...........................*/
+#lista_ustanova_2{
+    margin-left: 25%;
+    margin-top: 15px;
+    margin-right: 15%;
+    background-color: #760006;
+    padding: 15px; 
+}
+
+#ustanove_filter label input{
+    color: black;
+    border: 1px solid black;
+    margin-left: 0px;
+}
+
+/*.........................Uzbune...........................*/
+.datum_uzbune{
+    width: 15%;
+    font-size: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    border-style: solid;
+    background-color: #760006;
+}
+th{
+    color: white;
+}
+td,tbody{
+    background-color: #FA7B81;
+}
+#mod_kreir_uzbun{
+    text-align: center;
+}
+#mod_kreir_uzbun a{
+    margin-top: 30px;
+    text-decoration: none;
+    color: white;
+    padding: 15px 15px;
+}
+#uzbune_filter label input{
+    color: black;
+    border: 1px solid black;
+    margin-left: 0px;
+}
+
+/*........................kreiraj_uzbunu.php................*/
+.kr_uzbunu{
+    margin-left: 25%;
+    margin-top: 15px;
+    margin-right: 25%;
+    background-color: #760006;
+    padding: 15px;
+}
+#srednji_dio h2{
+    text-align: center;
+}
+/*................Oglasi.php..............................*/
+.oglas{
+    float: left;
+    display: inline-block;
+    width: 100%;
+}
+.vrste_oglasa{
+    text-align: center;
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+.vrste_oglasa h2{
+    text-align: center;
+}
+.zzk_oglas{
+    width: 50%;
+    display: inline-block;
+}
+
+#kreiraj_oglas{
+    margin-top: 15px;
+    margin-right: 10px;
+    background-color: #760006;
+    padding: 15px; 
+}
+#kreiraj_oglas input{
+    width: 95%;
+}
+.zzk_oglas h2{
+    text-align: center;
+}
+#lista_zzo{
+    margin-top: 15px;
+    text-align: center;
+}
+#lista_zzo a{
+    margin-top: 30px;
+    text-decoration: none;
+    color: white;
+    padding: 15px 15px;
+}
+/*................Nesreće...................................*/
+#link_prijava_nesrece{
+    display: inline-block;
+    height: 40px;
+}
+#link_prijava_nesrece a{
+    text-decoration: none;
+    color: white;
+    margin-top: 30px;
+    margin-left: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #9D1017;
+} 
+#oglas11{
+    margin-top: 30px;
+    background-color: red;
+}
+#nesrece{
+    border-collapse: collapse;
+    border-style: solid;
+}
+#nesrece_desno{
+    display: inline-block;
+}
+#nesrece_moderator{
+    height: 50px;
+    margin-top: 30px;
+}
+#nesrece_moderator a{
+    text-decoration: none;
+    color: white;
+    margin-top: 40px;
+    margin-left: 50px;
+    padding: 20px;
+    text-align: center;
+    background-color: #9D1017;
+}
+#nesrece_filter label input{
+    color: black;
+    border: 1px solid black;
+    margin-left: 0px;
+}
+/*.................Prijava nesreće...........................*/
+
+#prijava_nesrece{
+    margin-left: 25%;
+    margin-top: 15px;
+    margin-right: 15%;
+    background-color: #760006;
+    padding: 15px; 
+}
+#prijava_nesrece input{
+    width: 95%;
+}
+section h2{
+    text-align: center;
+}
+
+/*...............nesrece_moderator.php...................*/
+#mod_nesr_natrag{
+    margin-top: 30px;
+}
+
+/*...............lista_zzo.php...........................*/
+.galerija{
+    float: left;
+    width: 300px;
+    margin: 5px;
+}
+
+.galerija img{
+    width: 100%;
+    height: auto;
+    border: solid;
+}
+
+.opis{
+    text-align: center;
+    background-color: gray;
+    color: white;
+}
+/*...........dokumentacija.php.........................*/
+.kutija{
+    display: block;
+    border: solid;
+    border-color: #004A45;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: #0A625C;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+.sadrzaj{
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: #B4E2DF;
+    padding: 5px;
+}
+
+.naslov_kutije{
+    width:100%;
+}
+.kutija h2{
+    width:100%;
+    color: white;
+}
+.navigacija{
+    width: 25%;
+    float: left;    
+    position: fixed;
+    float: left;
+    top: 150px;
+}
+.navigacija a{
+    text-decoration: none;
+    color: black;
+}
+
+#dokumentacija_sekcija{
+    display: inline-block;
+    float: right;
+    width: 75%;
+}
+.sadrzaj_dokumentacija{
+    width: 100%;
+    display: inline-block;
+}
+.sadrzaj{
+    height: 400px;
+    overflow: scroll;
+}
+
+.img-fluid{
+    width: 100%;
+    height: auto;
+}

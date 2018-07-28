@@ -1,0 +1,40 @@
+/*...............index.php................*/
+.oglasi{
+    width: 250px;
+    margin-top:10px;
+}
+.oglasi div {
+    width: 250px;
+}
+.oglasi div img{
+    width: 250px;
+    height: 250px;
+}
+#pocetna_str{
+    width:47%;
+}
+/*...........prijava_nesrece.php.........*/
+#prijava_nesrece{
+    margin-left: 15%;
+}
+
+
+#mod_kreir_uzbun{
+    margin-top: 15px;
+}
+
+.vrste_oglasa h2{
+    margin-bottom: 72px;
+}
+
+.pir a {
+    padding: 10px 34px;
+    margin-top: 10px;
+}
+.pir{
+    margin-bottom: 0;
+}
+
+input{
+    width: 96%;
+}
